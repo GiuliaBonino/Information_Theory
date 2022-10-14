@@ -66,6 +66,7 @@ def build(v, parent):
             best_best_t=best_t
             best_feat=i
     threshold_l[best_feat].remove(best_t)
+    #committt
 
     parent.threshold=best_best_t
     v1=v[v[:,best_feat]>best_best_t, :] #vector with values larger than threshold
